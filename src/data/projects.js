@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    slug: 'atlas-portfolio',
+    title: 'Atlas Portfolio',
+    subtitle: 'Interactive data-driven portfolio',
+    description:
+      'An immersive portfolio that blends motion, charts, and data storytelling. Built with React, Tailwind, and Framer Motion.',
+    color: '#7c3aed',
+    gradientFrom: 'from-fuchsia-500',
+    gradientTo: 'to-indigo-600',
+    icon: '🂱',
+    suit: 'spade',
+    tags: ['React', 'Framer Motion', 'Tailwind'],
+    link: 'https://example.com',
+  },
+  {
+    slug: 'lumina-ui',
+    title: 'Lumina UI',
+    subtitle: 'Component library with personality',
+    description:
+      'A modern, accessible UI kit featuring expressive micro-interactions and a sleek design system.',
+    color: '#0ea5e9',
+    gradientFrom: 'from-cyan-400',
+    gradientTo: 'to-blue-600',
+    icon: '🂱',
+    suit: 'diamond',
+    tags: ['Design System', 'Accessibility', 'Docs'],
+    link: 'https://example.com',
+  },
+  {
+    slug: 'aurora-notes',
+    title: 'Aurora Notes',
+    subtitle: 'Minimal notes with sync',
+    description:
+      'A distraction-free notes app with offline-first sync and beautiful theming inspired by northern lights.',
+    color: '#16a34a',
+    gradientFrom: 'from-emerald-400',
+    gradientTo: 'to-teal-600',
+    icon: '🂱',
+    suit: 'club',
+    tags: ['PWA', 'Offline', 'Theming'],
+    link: 'https://example.com',
+  },
+  {
+    slug: 'nova-photos',
+    title: 'Nova Photos',
+    subtitle: 'Photographer showcase',
+    description:
+      'A crisp gallery experience with cinematic transitions and responsive, color-aware layouts.',
+    color: '#ef4444',
+    gradientFrom: 'from-rose-500',
+    gradientTo: 'to-orange-500',
+    icon: '🂱',
+    suit: 'heart',
+    tags: ['Gallery', 'Responsive', 'Color'],
+    link: 'https://example.com',
+  },
+]
